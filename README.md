@@ -1,8 +1,6 @@
 # WinCLIP
 Implementation of CVPR'23 paper "WinCLIP: Zero-/few-shot anomaly classification and segmentation". 
 
-updating...
-
 ## Setup
 - python >= 3.10.11
 - torch >= 1.13.0
