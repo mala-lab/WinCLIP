@@ -1,5 +1,5 @@
 # WinCLIP
-Implementation of CVPR'23 paper "WinCLIP: Zero-/few-shot anomaly classification and segmentation". 
+Unofficial Implementation of CVPR'23 paper "WinCLIP: Zero-/few-shot anomaly classification and segmentation". 
 
 ## Setup
 - python >= 3.10.11
