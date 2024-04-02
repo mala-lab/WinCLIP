@@ -35,7 +35,7 @@ DATA_PATH/
 ```
 #### Step 2. Quick Start
 
-Change the values of dataset_root_dir, datasetname, shot (in main.py) and OBJECT_TYPE (in mvtec_dataset.py). 
+Change the values of dataset_root_dir, datasetname, shot (in [main.py](https://github.com/mala-lab/WinCLIP/blob/main/main.py)) and OBJECT_TYPE (in mvtec_dataset.py). 
 For example, if run on the category candle of visa with k=2:
 ```
 dataset_root_dir = "/visa_anomaly_detection"
