@@ -18,7 +18,7 @@ Single NVIDIA GeForce RTX 3090
 ## Run
 #### Step 1. Setup the Anomaly Detection dataset
 
-Download the Anomaly Detection Dataset and convert it to MVTec AD format. (For datasets we used in the paper, we provided [the convert script]) 
+Download the Anomaly Detection Dataset and convert it to MVTec AD format. (For datasets we used in the paper, we provided [the convert script](https://github.com/mala-lab/InCTRL/tree/main/datasets/preprocess)) 
 The dataset folder structure should look like:
 
 ```
@@ -36,6 +36,16 @@ DATA_PATH/
 ```
 #### Step 2. Quick Start
 
+Change the values of dataset_root_dir, datasetname, shot (in main.py) and OBJECT_TYPE (in mvtec_dataset.py). 
+For example, if run on the category candle of visa with k=2:
+```
+dataset_root_dir = "/visa_anomaly_detection"
+datasetname = "visa"
+shot = 0
+
+OBJECT_TYPE = ["candle"]
+```
+and run
 ```bash
-python winclip.py
+python main.py
 ```
