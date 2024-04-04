@@ -48,3 +48,16 @@ and run
 ```bash
 python main.py
 ```
+
+## Citation
+
+This implementation is used to produce the WinCLIP results in our [CVPR'24 InCTRL paper](https://github.com/mala-lab/InCTRL). If you find the implementation useful, we would appreciate your acknowledgement via citing the InCTRL paper:
+
+```bibtex
+@inproceedings{zhu2024toward,
+  title={Toward Generalist Anomaly Detection via In-context Residual Learning with Few-shot Sample Prompts},
+  author={Zhu, Jiawen and Pang, Guansong},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  year={2024}
+}
+```
